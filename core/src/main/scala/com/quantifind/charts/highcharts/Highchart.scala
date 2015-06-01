@@ -644,6 +644,8 @@ case class Axis(
       "lineWidth" -> lineWidth,
       //    "maxPadding" -> maxPadding,
       //    "minPadding" -> minPadding,
+      "max" -> max,
+      "min" -> min,
       "offset" -> offset,
       "opposite" -> opposite,
       "reversed" -> reversed,
