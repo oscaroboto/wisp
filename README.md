@@ -119,7 +119,8 @@ To compile and assemble run
 ```
 sbt assembly
 ```
-Once complete the desired jar file will be located at wisp/core/target/scala-2.10/Wisp-assembly-0.0.4.jar
+Once complete the desired jar file will be located at 
+wisp/core/target/scala-2.10/Wisp-assembly-0.0.4.jar
 
 The command to run the spark-shell with Wisp will look something like the following, modified of course to the file hierarchy of your machine.
 ```
