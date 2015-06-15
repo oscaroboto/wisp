@@ -110,6 +110,21 @@ Server Controls:
 
 scala>
 ```
+## Running with Spark
+
+To run with <a href=https://spark.apache.org/>Spark</a> the wisp spackage must first be compiled and assembled.
+By default the scala version will be 2.10.4, to change this edit the wisp/project/Build.scala file and modify the scalaVersion variable to the desired version.
+
+To compile and assemble run
+```
+sbt assembly
+```
+Once complete the desired jar file will be located at wisp/core/target/scala-2.10/Wisp-assembly-0.0.4.jar
+
+The command to run the spark-shell with Wisp will look something like the following, modified of course to the file hierarchy of your machine.
+```
+bin/./spark-shell --master local --jars wisp/core/target/scala-2.10/Wisp-assembly-0.0.4.jar
+```
 
 ## More Info
 
