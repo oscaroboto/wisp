@@ -24,7 +24,7 @@ object WispBuild extends Build {
 		BranchRelease.branchSettings ++
 		xerial.sbt.Sonatype.sonatypeSettings ++
 		Seq(
-			scalaVersion := "2.11.6",
+			scalaVersion := "2.10.4",
 			crossScalaVersions := Seq("2.10.5", "2.11.6"),
 			organization := "com.quantifind",
 			scalacOptions := Seq("-deprecation", "-unchecked", "-optimize"),
